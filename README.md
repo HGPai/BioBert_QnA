@@ -32,6 +32,6 @@ a Dense layer. It is then flattened to a 1 dimensional array and applied with a 
 the highest probability is identified as the respective token. This process is applied to Start and End tokens.
 
 
-![End Token Classification(/end_token_classification.png?raw=true 'End Token Classification")
+![End Token Classification](/end_token_classification.png?raw=true "End Token Classification")
 
 
