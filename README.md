@@ -25,5 +25,13 @@ task. The question and the reference text are separated by a `[SEP]` token. BERT
 ### Final Classifier
 For the QA task, BERT generates the answer by predicting the start and end positions of the token
 
-![Start Token Classifier](/start_token_classification.png?raw=true "Start Token Classification")
+![Start Token Classification](/start_token_classification.png?raw=true "Start Token Classification")
+
+BERT returns two kinds of output - Sequence output and Pooled output. For token classification, the sequence output is used. After passing the sequence output through 
+a Dense layer. It is then flattened to a 1 dimensional array and applied with a Softmax function to produce probability distribution of vectors. The vector that produces
+the highest probability is identified as the respective token. This process is applied to Start and End tokens.
+
+
+![End Token Classification(/end_token_classification.png?raw=true 'End Token Classification")
+
 
