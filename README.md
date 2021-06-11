@@ -24,5 +24,6 @@ task. The question and the reference text are separated by a `[SEP]` token. BERT
 
 ### Final Classifier
 For the QA task, BERT generates the answer by predicting the start and end positions of the token
-![Start Token Classifier](/start_token_classification.png?raw=true'Start Token Classification')
+
+![Start Token Classifier](/start_token_classification.png?raw=true "Start Token Classification")
 
